@@ -1,0 +1,90 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #010102, #6054d1, #25064e);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+
+section {
+    width: 50vh;
+    height: 60vh;
+    margin: 5px;
+    padding: 10px;
+    background: linear-gradient(135deg, #000000, #342992, #060408);
+    color: rgb(224, 238, 191);
+    border-radius: 5%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+article {
+    margin: 15px 10px;
+}
+
+article input {
+    width: 100%;
+    margin-top: 15px;
+    display: block;
+    border: 2px solid wheat;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+}
+
+ article input[type=text]{
+    background-color: rgb(237, 241, 245);
+ }
+
+  article input[type=password]{
+    background-color: rgb(237, 241, 245);
+ }
+
+
+
+
+.login {
+    margin-top: 30px;
+}
+
+div {
+    text-align: center;
+    font-size: larger;
+    margin-top: 12px;
+    padding: 5px;
+
+}
+
+main {
+    margin-top: 50px;
+}
+
+section button {
+    border: none;
+    text-align: center;
+   margin-top: 25px;
+    margin-left: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 40%;
+    background: linear-gradient(135deg, #ffd0d0, #5a4cd6, #a373d3);
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+section button:hover{
+    background: linear-gradient(135deg, #ddcbcb, #9188e9, #a373d3);
+}
