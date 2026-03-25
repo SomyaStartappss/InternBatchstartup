@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Contact Us</legend>
+
+                <article>
+                    <label for="name">Full Name </label>
+                    <input type="text" id="name" placeholder="Enter Your Name" required>
+                </article>
+
+                <article>
+                    <label for="username">Email </label>
+                    <input type="email" name="email" id="username" required>
+                </article>
+
+                <article>
+                    <label for="password">Password </label>
+                    <input type="password" name="password" id="password" required>
+                </article>
+
+                <article>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </article>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>
