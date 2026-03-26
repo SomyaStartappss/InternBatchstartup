@@ -91,7 +91,7 @@ main div {
         width: 300px;
         background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
         margin: 5px;
-        box-shadow: -5px 0 5px rgpa(0, 0, 0, 0.25);
+        box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
         transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
     }
 
