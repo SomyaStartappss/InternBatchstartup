@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.container{
+    background-color: #c7b6ee ;
+    margin: 10px;
+    padding: 20px;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    
+}
+
+button{
+    width: 33px;
+    margin: 5px;
+    margin-left: 15px;
+    height: 35px;
+    text-align: center;
+    font-weight: 700;
+    
+}
