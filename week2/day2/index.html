@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter-Method</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Select Your Product By Your Choice</h1>
+
+    <div class="filter">
+        <input type="text" id="search" placeholder="Search Product">
+
+        <select id="category">
+            <option value="all">All Categories</option>
+            <option value="Men">Men</option>
+            <option value="Women">Women</option>
+            <option value="kids">Kids</option>
+            <option value="genz">GenZ</option>
+        </select>
+
+        <select id="price">
+            <option value="all">All Prices</option>
+            <option value="low">Below 500</option>
+            <option value="mid">500 - 1000</option>
+            <option value="high">Above 1000</option>
+        </select>
+
+        <select id="sort">
+            <option value="">Sort By</option>
+            <option value="low-high">Price Low to High</option>
+            <option value="high-low">Price High to Low</option>
+        </select>
+
+        <button id="toggleView">Toggle View</button>
+    </div>
+
+    <div id="product-container" class="grid-view">
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
