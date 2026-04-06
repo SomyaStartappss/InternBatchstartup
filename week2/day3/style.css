@@ -1,0 +1,133 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body.dark {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark nav {
+    background-color: #1e1e1e;
+}
+
+body.dark main {
+    background-color: #2a2a2a;
+}
+
+body.dark .toggle-btn {
+    background-color: #ddd;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+.logo-name{
+    font-size: xx-large;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin: 10px;
+    padding: 15px;
+}
+ 
+.toggle-btn{
+    background-color: rgb(12, 8, 8);
+    position: relative;
+    width: 60px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.toggle-ball{
+    background-color: aliceblue;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.toggle-btn.active .toggle-ball {
+    transform: translateX(30px);
+}
+
+main {
+    width: 80%;
+    margin: 40px auto;
+    background-color: rgb(207, 162, 102);
+    border-radius: 30px;
+    position: relative;
+    min-height: 90vh;
+    height: auto;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    overflow: visible;
+
+}
+
+.right {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.right img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.left {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: rgb(207, 207, 207);
+    margin-left: 50px;
+
+}
+
+.left h1 {
+    font-size: 60px;
+}
+
+.left p {
+    font-size: 30px;
+}
+
+.left button {
+    border-radius: 15px;
+    border: none;
+    margin: 3px;
+    margin-left: 60px;
+    padding: 5px;
+    font-size: 30px;
+    width: 250px;
+    cursor: pointer;
+}
