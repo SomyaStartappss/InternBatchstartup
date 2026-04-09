@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #6dd5fa, #ffffff); /* nice gradient background */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  min-width: 300px;
+  max-width: 400px;
+  margin-top: 250px;
+  margin-left: 300px;
+}
+
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+.Weather-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.Weather-box input {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+  width: 70%;
+  font-size: 16px;
+}
+
+.Weather-box button {
+  padding: 10px 20px;
+  border: none;
+  background: #2196f3;
+  color: white;
+  font-weight: bold;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Weather-box button:hover {
+  background: #1976d2;
+}
+
+
+p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.Weather-info {
+  background: #f0f4f8;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.Weather-info h3 {
+  margin: 0;
+  font-size: 22px;
+  color: #333;
+}
+
+.Weather-info h1 {
+  margin: 10px 0;
+  font-size: 48px;
+  color: #2196f3;
+}
+
+.Weather-info p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.Weather-info + p {
+  color: red;
+  font-weight: bold;
+}
