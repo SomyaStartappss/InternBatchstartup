@@ -1,0 +1,46 @@
+/* Full page center */
+.home-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(12px);
+    text-align: center;
+    color: white;
+    width: 350px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+.home-card h1 {
+    margin-bottom: 10px;
+}
+
+.home-card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+.home-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: white;
+    color: #6e39a7;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.home-btn:hover {
+    background: #6e39a7;
+    color: white;
+    transform: scale(1.05);
+}

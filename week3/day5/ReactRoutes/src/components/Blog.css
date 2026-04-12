@@ -1,0 +1,53 @@
+
+.blog-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(12px);
+    color: white;
+    width: 420px;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+.blog-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.blog-links a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.blog-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.blog-btn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background: white;
+    color: #6e39a7;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.blog-outlet {
+    margin-top: 20px;
+}

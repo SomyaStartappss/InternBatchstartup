@@ -1,0 +1,36 @@
+
+.about-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(12px);
+    color: white;
+    width: 400px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.about-card h1 {
+    margin-bottom: 15px;
+}
+
+.about-card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+
+.about-card ul {
+    padding-left: 20px;
+}
+
+.about-card li {
+    margin-bottom: 8px;
+}
