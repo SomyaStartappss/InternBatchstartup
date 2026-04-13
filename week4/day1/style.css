@@ -1,0 +1,150 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background: linear-gradient(to top, #36238a, #7f55c2);
+    padding: 10px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin: 3px;
+    padding: 3px;
+    color: rgb(218, 216, 216);
+}
+
+section h3 {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: x-large;
+}
+
+section p {
+    font-size: larger;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border: none;
+    object-fit: cover;
+    width: 400px;
+    border-radius: 15px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+ul {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+}
+
+li {
+    list-style: none;
+    margin: 5px;
+    padding: 2px;
+}
+
+a{
+    color: #4e2ce4;
+    text-decoration: none;
+}
+  h3{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+  }
+ table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    table, th, td {
+      border: 1px solid #c3c6dd;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+form section {
+    background: white;
+    padding: 25px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.login {
+    text-align: center;
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #36238a;
+}
+
+form article {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+form label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+form input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+form input:focus {
+    border-color: #7f55c2;
+    box-shadow: 0 0 5px rgba(127, 85, 194, 0.5);
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #36238a, #7f55c2);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
