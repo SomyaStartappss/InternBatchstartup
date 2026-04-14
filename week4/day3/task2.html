@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Bg_color</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        button {
+            font-size: x-large;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Changing Bg-color on clicking button</h1>
+
+    <button onclick="colorChange()">Change</button>
+    <script>
+        let btn = document.querySelector("button")
+        let random = true;
+        const colorChange = (() => {
+            if (random) {
+                document.body.style.backgroundColor = "black"
+            }
+            else {
+                document.body.style.backgroundColor = "white"
+            }
+            random =!random
+        })
+
+
+    </script>
+
+</body>
+
+</html>
